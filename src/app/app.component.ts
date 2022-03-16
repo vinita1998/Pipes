@@ -7,4 +7,21 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Pipes';
+  
+  users=[{
+      firstname: 'shiv',
+      city: 'NewYork',
+      cityCode:'NY'
+      },
+      {
+        firstname: 'lokesh',
+        city: 'london',
+        cityCode:'Ln'
+        },
+        {
+          firstname: 'vini',
+          city: 'United K',
+          cityCode:'UK'
+          }];
+      
 }
